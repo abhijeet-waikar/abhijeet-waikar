@@ -1,26 +1,34 @@
 # Abhijeet Waikar
 
-**Senior Software Engineer** — 11 years production engineering, 
-now building LLM-powered backend systems.
+**Senior Software Engineer — 11 years building production backend systems, now building LLM and agentic AI systems.**
 
-## Deployed Projects
+Lead Backend Engineer at SLB, working on a cloud-native data platform serving 150+ concurrent consumers. Java 21 / Spring Boot 3.x and Python. Interested in the unglamorous parts of AI systems: state, evaluation, guardrails, cost, and observability.
 
-| Project | Stack | Live |
+---
+
+## Projects
+
+| Project | What it is | Stack |
 |---|---|---|
-| [AI Backend Service](https://github.com/abhijeet-waikar/ai-backend-service) | FastAPI · OpenAI · ChromaDB · RAG | [Live ↗](https://ai-backend-asw-service.onrender.com/docs) |
+| **[langgraph-agent-service](https://github.com/abhijeet-waikar/langgraph-agent-service)** | Production-shaped LLM agent — tool calling, RAG grounding, human-in-the-loop approval gate via `interrupt()`, MCP tools from external services, checkpointed to Postgres | LangGraph · FastAPI · Postgres/pgvector · MCP · Ollama/OpenAI |
+| **[graphrag-neo4j-api](https://github.com/abhijeet-waikar/graphrag-neo4j-api)** | GraphRAG service — graph CRUD, Cypher traversal, and vector similarity search implementing the vector-hit + graph-hop retrieval pattern. Raw Neo4j driver, no framework abstraction | FastAPI · Neo4j · Cypher · sentence-transformers |
+| **[ai-backend-service](https://github.com/abhijeet-waikar/ai-backend-service)** | Backend service integrating LLM inference and vector similarity search | FastAPI · OpenAI · ChromaDB · RAG |
 
-*Note: Render free tier — 30s cold start on first request*
+---
 
 ## Stack
 
-**AI/LLM:** Python · FastAPI · OpenAI API · ChromaDB · RAG Pipelines  
-**Cloud:** GCP (Cloud Run · Dataflow · BigQuery · Composer/Airflow) · Docker  
-**Backend:** Java 11 · Spring Boot · PostgreSQL · REST APIs · Microservices  
+**AI / LLM** — Python · LangGraph · MCP · RAG pipelines · pgvector · Neo4j · FastAPI · Ollama / OpenAI
+
+**Backend** — Java 21 (virtual threads, records) · Java 8/11 · Spring Boot 3.x · REST APIs · Microservices · PostgreSQL · Oracle
+
+**Cloud & Infra** — GCP (Cloud Run · Pub/Sub · Dataflow · BigQuery · Composer/Airflow) · Docker · CI/CD
+
+---
 
 ## Background
 
-Lead Backend Engineer @ SLB · Deutsche Bank · 11 years production experience  
-GCP Professional Cloud Developer  
-📍 Pune, India
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/abhijeet-waikar-developer)
+- **Lead Backend Engineer @ SLB** — enterprise data platform, GCP, 150+ concurrent consumers
+- **Deutsche Bank** — high-throughput core banking APIs, Oracle, regulated environment
+- GCP Professional Cloud Developer
+- 📍 Pune, India · [LinkedIn](https://www.linkedin.com/in/abhijeet-waikar-developer/)
